@@ -211,7 +211,7 @@ nav.fill ul li a:hover:after {
     width: 300px;
   }
   footer {
-    margin-top: 32px;
+    margin-top: 52px;
   }
 }
 @media (max-width: 375px) {
