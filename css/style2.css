@@ -199,7 +199,7 @@ nav.fill ul li a:hover:after {
 }
 @media (max-width: 428px) {
   section {
-    height: 525px;
+    height: 725px;
     overflow: hidden;
   }
   #paragraph {
