@@ -199,7 +199,7 @@ nav.fill ul li a:hover:after {
     margin-bottom: 5px;
   }
   section {
-    height: 420px;
+    height: 455px;
   }
   .sobre p {
     margin-top: 15px;
@@ -209,12 +209,23 @@ nav.fill ul li a:hover:after {
     margin-top: 25px;
     font-size: 14px;
     width: 300px;
+    padding: 0%;
   }
   footer {
-    margin-top: 52px;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  section {
+    height: 472px;
   }
 }
 @media (max-width: 375px) {
+  section {
+    height: 455px;
+  }
   .sobre p {
     font-size: 11px;
   }
