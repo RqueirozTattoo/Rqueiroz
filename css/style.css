@@ -169,34 +169,35 @@ button:hover {
     padding: 30px;
     margin-bottom: -45px;
     text-decoration: none;
-}
-.orcamento button {
-  margin-top: 25px;
-}
-.nav{
-  margin-top: 35px; 
-}
-@media (max-width: 375px) {
-  .nav ul li a {
-    font-size: 10px;
-    margin: 0;
   }
   .orcamento button {
-    margin-top: 5px;
+    margin-top: 25px;
   }
-  .nav{
-    margin-top: 5px; 
+  .nav {
+    margin-top: 35px;
   }
-}
-@media (max-width: 320px) {
-  h1 {
-    font-size: 60px;
+  @media (max-width: 375px) {
+    .nav ul li a {
+      font-size: 10px;
+      margin: 0;
+    }
+    .orcamento button {
+      margin-top: 5px;
+    }
+    .nav {
+      margin-top: 5px;
+    }
   }
-  .orcamento h1 {
-    font-size: 35px;
-  }
-  .nav ul li a {
-    font-size: 9px;
-    margin: 0;
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 60px;
+    }
+    .orcamento h1 {
+      font-size: 35px;
+    }
+    .nav ul li a {
+      font-size: 9px;
+      margin: 0;
+    }
   }
 }
