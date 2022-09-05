@@ -12,7 +12,13 @@
 span {
   color: blueviolet;
 }
-
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/FUNDO2.png);
+  background-size: cover;
+  background-position: center;
+}
 .sobre {
   padding-bottom: 30px;
   display: flex;
@@ -46,10 +52,6 @@ footer img {
   height: 150px;
 }
 
-body {
-  background: linear-gradient(#1f0036, #440075);
-  background-repeat: no-repeat;
-}
 a {
   text-decoration: none;
   color: #fff;
