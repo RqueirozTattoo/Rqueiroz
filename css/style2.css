@@ -202,11 +202,17 @@ nav.fill ul li a:hover:after {
     height: 525px;
     overflow: hidden;
   }
+  #paragraph {
+    margin-top: 50px;
+  }
 }
 @media (max-width: 414px) {
   section {
-    height: 500px;
+    height: 700px;
     overflow: hidden;
+  }
+  #sobre-paragraph {
+    width: 360px;
   }
 }
 @media (max-width: 393px) {
