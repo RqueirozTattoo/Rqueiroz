@@ -18,9 +18,9 @@ body {
   background-image: url(../img/FUNDO2.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .sobre {
-  padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,11 +45,13 @@ body {
 
 footer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 footer img {
   width: 150px;
-  height: 150px;
+  margin-top: 130px;
 }
 
 a {
@@ -142,16 +144,7 @@ nav.fill ul li a:hover:after {
   background: none;
   cursor: pointer;
 }
-@media (max-width: 2560px) {
-  section {
-    height: 668px;
-  }
-}
-@media (max-width: 1440px) {
-  section {
-    height: 540px;
-  }
-}
+
 @media (max-width: 1024px) {
   footer {
     margin-top: 49px;
@@ -187,5 +180,28 @@ nav.fill ul li a:hover:after {
     padding: 1rem 0;
     margin: 1rem 1rem;
     border-bottom: #000000;
+  }
+  #sobre-paragraph {
+    width: 370px;
+  }
+  footer img {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 375px) {
+  #sobre-paragraph {
+    width: 350px;
+  }
+  footer img {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  section {
+    height: 500px;
+  }
+
+  #sobre-paragraph {
+    width: 300px;
   }
 }
