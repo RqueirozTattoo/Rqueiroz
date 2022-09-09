@@ -11,11 +11,24 @@
   </head>
   <body>
     <header>
-      <div class="logo" data-aos="fade-down" data-aos-duration="2500">
-        <a href="/">
-          <h1><span>R</span>queiroz</h1>
-        </a>
-      </div>
+      <nav
+      id="nav"
+      class="stroke"
+      data-aos="fade-left"
+      data-aos-duration="2500">
+        <div class="logo" data-aos="fade-down" data-aos-duration="2500">
+          <a href="/">
+            <h1><span>R</span>queiroz</h1>
+          </a>
+        </div>
+        <button id="btn-mobile"><i class="fa-solid fa-bars"></i></button>
+          <ul id="menu">
+            <li><a href="../Pages/sobre.html">QUEM SOU EU?</a></li>
+            <li><a href="../Pages/estilos.html">ESTILOS</a></li>
+            <li><a href="../Pages/trabalhos.html">TRABALHOS</a></li>
+            <li><a href="../Pages/contato.html">CONTATO</a></li>
+          </ul>
+      </nav>
       <div class="bem-vindo" data-aos="zoom-in" data-aos-duration="2500">
         <img
           src="img/Ola.webp"
@@ -32,15 +45,6 @@
           >
         </button>
       </div>
-
-      <footer class="nav" data-aos="fade-up" data-aos-duration="2500">
-        <ul>
-          <li><a href="Pages/sobre.html">QUEM SOU EU?</a></li>
-          <li><a href="Pages/estilos.html">ESTILOS</a></li>
-          <li><a href="Pages/trabalhos.html">TRABALHOS</a></li>
-          <li><a href="Pages/contato.html">CONTATO</a></li>
-        </ul>
-      </footer>
     </header>
     <!--AOS Script-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -48,6 +52,7 @@
       AOS.init();
     </script>
     <script src="https://kit.fontawesome.com/34b44f9772.js" crossorigin="anonymous"></script>
+    <script src="scripts/mobile-navbar.js"></script>
   </body>
   </body>
 </html>

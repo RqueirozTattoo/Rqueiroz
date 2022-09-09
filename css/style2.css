@@ -157,7 +157,7 @@ nav.fill ul li a:hover:after {
     margin-top: 49px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 428px) {
   #btn-mobile {
     display: flex;
     margin: 0;
@@ -187,66 +187,5 @@ nav.fill ul li a:hover:after {
     padding: 1rem 0;
     margin: 1rem 1rem;
     border-bottom: #000000;
-  }
-  .sobre p {
-    font-size: 14px;
-  }
-  section {
-    height: 452px;
-    overflow: hidden;
-  }
-  footer {
-    margin-top: 0px;
-  }
-}
-@media (max-width: 428px) {
-  section {
-    height: 520px;
-  }
-  #paragraph {
-    margin-top: 50px;
-  }
-}
-@media (max-width: 414px) {
-  section {
-    height: 700px;
-  }
-  #sobre-paragraph {
-    width: 360px;
-  }
-}
-@media (max-width: 393px) {
-  section {
-    height: 530px;
-    overflow: hidden;
-  }
-}
-@media (max-width: 390px) {
-  #sobre-paragraph {
-    width: 360px;
-  }
-  section {
-    height: 445px;
-    overflow: hidden;
-  }
-}
-@media (max-width: 375px) {
-  section {
-    height: 420px;
-    overflow: hidden;
-  }
-  #sobre-paragraph {
-    width: 360px;
-  }
-}
-@media (max-width: 360px) {
-  section {
-    height: 565px;
-    overflow: hidden;
-  }
-}
-@media (max-width: 320px) {
-  #sobre-paragraph {
-    width: 310px;
   }
 }
