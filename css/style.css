@@ -89,7 +89,6 @@ span {
 #menu a {
   color: white;
 }
-
 nav ul li a,
 nav ul li a:after,
 nav ul li a:before {
@@ -140,7 +139,6 @@ nav.fill ul li a:hover:after {
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
-
 @keyframes anima {
   0% {
     transform: scale(1);
